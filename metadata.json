@@ -1,0 +1,6 @@
+{
+  "name": "Gedhang Goereng YK",
+  "description": "Premium artisanal crispy fried banana chips topped with slow-melted glazes like Chocolate, Matcha, and Strawberry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

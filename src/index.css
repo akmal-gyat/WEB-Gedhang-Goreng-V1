@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+:root {
+  --bg: #0F0C07;
+  --gold-light: #FFF3B0;
+  --gold-main: #FFC107;
+  --ink: #F7EFE5;
+  --muted: #E6D5B8;
+  --accent-brown: #4A2E1B;
+  --accent-green: #889E73;
+}
+
+/* Custom global rules for luxury food theme */
+html, body, #root {
+  background-color: #0F0C07;
+  color: #F7EFE5;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+/* Custom class for hero-heading gradient text */
+.hero-heading {
+  background: linear-gradient(180deg, #FFF3B0 0%, #FFC107 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass panel premium styling */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+}
+
+/* Custom scrollbar aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0C07;
+}
+::-webkit-scrollbar-thumb {
+  background: #251E13;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFC107;
+}
